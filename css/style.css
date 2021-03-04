@@ -44,9 +44,31 @@ h2 {
 }
 
 .content-wrap {
-    width: 900px;
+    max-width: 800px;
+    width: 85%;
     margin: 0 auto;
     padding: 30px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+    border: none;
 }
 
 /* Profile */
@@ -56,6 +78,7 @@ h2 {
 header {
     background-color: #2F3061;
     color: #F7FFF7;
+    text-align: center;
 }
 
 /* Projects */
@@ -84,14 +107,8 @@ header {
 
 .project-item {
     overflow: hidden;
-    border-bottom: 1px dashed #343434;
-    padding: 25px 0;
 }
 
-.project-item img {
-    float: left;
-    margin-right: 20px;
-}
 
 .project-item h3 {
     margin-top: 0;
@@ -106,13 +123,52 @@ header {
     background-color: #A1C6D7;
 }
 
+
 /* Education */
 /* -------------------------------------------------- */
 
+
+.education {
+    background-image: url(/images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+
+.education p {
+    width: 60%
+}
 
 /* Contact */
 /* -------------------------------------------------- */
 
 footer {
     background-color: #343434;
+    text-align: center;
+}
+
+.content-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-list a {
+    display: inline-block;
+    padding: 15px;
+}
+
+/* responsive */
+
+@media screen and (min-width: 750px){
+    .project-item img {
+        float: left;
+        margin-right: 20px;
+    }
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
 }
