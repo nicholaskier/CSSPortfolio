@@ -145,6 +145,10 @@ footer {
     background-color: #343434;
 }
 
+footer h2 {
+    color: #F7FFF7;
+}
+
 .content-list {
     list-style-type: none;
     padding: 0;
