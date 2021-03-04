@@ -18,6 +18,7 @@ body {
 
 img {
     width: 300px;
+    margin: 20px;
 }
 
 a {
@@ -98,6 +99,7 @@ header {
     color: #F7FFF7;
     background-color: #2F3061;
     text-decoration: none;
+    margin: 10px;
     padding: 8px;
     border-radius: 6px;
     display: inline-block;
