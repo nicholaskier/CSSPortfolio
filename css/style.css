@@ -19,7 +19,11 @@ body {
 img {
     width: 300px;
     height: 300px;
-    margin: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    justify-self: center;
 }
 
 a {
@@ -140,9 +144,21 @@ header {
     padding-bottom: 100px;
 }
 
-.education p {
-    width: 60%
+.education > .item-details h3 {
+    background-color: rgba(246, 246, 250, 0.514);
+    border-radius: 10px 10px 10px 0;
+    background-size: cover;
+    padding: 10px;
+    width: 70%;
 }
+
+.education p {
+    width: 60%;
+    background-color: rgba(246, 246, 250, 0.514);
+    border-radius: 0 0px 10px 10px;
+    padding: 10px;
+}
+
 
 /* Contact */
 /* -------------------------------------------------- */
