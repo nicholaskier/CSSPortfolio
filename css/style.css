@@ -181,6 +181,10 @@ footer h2 {
     padding: 15px;    
 }
 
+.content-list li {
+    text-decoration: underline;
+    text-underline-position: under;
+}
 /* responsive */
 
 @media screen and (min-width: 750px){
