@@ -83,7 +83,6 @@ h3 {
 /* Profile */
 /* -------------------------------------------------- */
 
-
 header {
     background-color: #2F3061;
     color: #F7FFF7;
@@ -132,15 +131,12 @@ header {
 /* Work Experience */
 /* -------------------------------------------------- */
 
-
 .work-experience {
     background-color: #A1C6D7;
 }
 
-
 /* Education */
 /* -------------------------------------------------- */
-
 
 .education {
     background-image: url(/images/joanna-kosinska-unsplash.jpg);
@@ -163,7 +159,6 @@ header {
     border-radius: 0 0 10px 10px;
     padding: 10px;
 }
-
 
 /* Contact */
 /* -------------------------------------------------- */
